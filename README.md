@@ -1,6 +1,18 @@
 About the HSR
 --------------------
 
+Rafcon installation
+--------------------
+```
+sudo apt-get update
+sudo apt-get install libcairo2-dev libjpeg-dev libgif-dev
+sudo apt install libgirepository1.0-dev
+pip install rafcon --user
+sudo apt install python3-gi gobject-introspection gir1.2-gtk-3.0
+sudo apt-get install gir1.2-gtksource-3.0
+PATH=$PATH:~/.local/bin
+```
+
 Please refer to the following to obtain information about Human Support Robot (HSR) and use it in your paper.
 
 https://robomechjournal.springeropen.com/articles/10.1186/s40648-019-0132-3
